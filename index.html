@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login form </title>
+    <link rel="shortcut icon" href="./lamp.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            background-image: radial-gradient(circle at top left, rgb(58, 173, 160),rgb(93, 192, 108),rgb(155, 206, 96));
+        }
+        .Container{
+            border: 2px solid gray;
+            background-image: radial-gradient(circle at top left, rgb(8,123,110),rgb(113, 209, 128),rgb(114, 167, 55));
+            width: 600px;
+            height: 520px;
+            font-weight: 500;
+            
+            padding-left: 150px;
+            padding-right: 150px;
+            padding-bottom: 140px;
+            padding-top: 50px;
+            margin-left: 17%;
+            border-radius: 25px;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        .con1{
+            text-align: center;
+            border-radius: 25px;
+        }
+        #email{
+            height: 20px;
+            width: 150px;
+            border-radius: 5px;
+            border: 2px solid rgb(18, 15, 18);
+            /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+        }
+        #pswd{
+            height: 20px;
+            width: 150px;
+            border-radius: 5px;
+            border: 2px solid rgb(16, 9, 16);
+        }
+        #bttn{
+            color: aliceblue;
+            background-image: linear-gradient(to bottom left, black 29px , gray );
+            height: 40px;
+            width: 150px;
+            border-radius: 5px;
+            border: 2px solid rgb(16, 9, 16);
+        }
+        #New{
+            /* text-align: center; */
+            color: aliceblue;
+            background-image: linear-gradient(to bottom left, black 25px, gray);
+            height: 40px;
+            width: 200px;
+            border-radius: 5px;
+            border: 2px solid rgb(16, 9, 16);
+            margin-left: 20%;
+        }
+        #Rgstr{
+            /* text-align: center; */
+            /* padding-left: 70%; */
+            /* margin-left: 70%; */
+            color: aliceblue;
+            background-image: linear-gradient(to bottom left, black 25px, gray);
+            height: 40px;
+            width: 100px;
+            border-radius: 5px;
+            border: 2px solid rgb(16, 9, 16);
+        }
+        h1{
+            margin-left: 33%;
+        }
+        
+    </style>
+</head>
+<body><form action="">
+    <div class="Container">
+        <i><u><h1>&nbsp;WELCOME BACK &nbsp;</h1></u></i>
+        <fieldset class="con1">
+            <legend><img src="./lamp.png" alt="Icon" width="150px"></legend><br>
+        <Label for="email"><i class="fa fa-envelope-square" style="font-size:24px"></i> User ID| Email  : </Label>
+        <input  type="email" name="email" id="email" ><br><br>
+        <label for="pswd"><i class="fa fa-eye-slash" style="font-size:24px"></i> Password :</label>
+        <input type="password" name="pswd" id="pswd"><br><br>
+        <button id="bttn" >LogIn <i class="fa fa-thumbs-o-up" style="font-size:20px"></i></button><br><br>
+    </fieldset><br>
+    <button type="submit" id="New" formaction="./forgotpswd.html">Forgot Password? </button>
+    <button id="Rgstr" type="submit" formaction="./Registration Form.html">Register Here</button>
+
+    </div>
+
+    </form>
+</body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+    <link rel="shortcut icon" href="./lamp.png" type="image/x-icon" />
+    <style>
+      .set{
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        background-image: radial-gradient(circle at bottom right, rgb(0, 162, 255), rgb(0, 200, 255), rgb(0, 255, 200));
+        color: saddlebrown  ;
+        border-radius: 15px;
+      }
+      #main {
+        /* font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+        sans-serif; 
+        font-weight: bold;
+        width: 500px;
+        margin-left: 35%; */
+        border: 2px solid gray;
+        background-image: radial-gradient(
+          circle at top left,
+          rgb(0, 255, 38),
+          #00ffd9,
+          rgb(0, 187, 255)
+        );
+        width: 500px;
+        font-weight: 500;
+
+        padding-left: 150px;
+        padding-right: 150px;
+        padding-bottom: 100px;
+        /* padding-top: 35px; */
+        margin-left: 21%;
+        border-radius: 25px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      /* #academic {
+        margin-left: 33%;
+        background-image: linear-gradient(to bottom right, black, gray, white);
+        border-width: 2px;
+        height: 35px;
+        border-radius: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+      } */
+      /* #academic1{
+        margin-left: 33%;
+        background-image: linear-gradient(to bottom right, black, gray, white);
+        border-width: 2px;
+        height: 35px;
+        width: 110px;
+        border-radius: 10px;
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bolder;
+      } */
+      legend {
+        text-align: right;
+      }
+      /* #div {
+        border: 2px solid black;
+        width: 600px;
+        padding-right: 40%;
+      } */
+    </style>
+  </head>
+  <body>
+    <form id="main">
+      <div class="div">
+        <br /><br />
+        <fieldset class="set">
+          <legend><img src="./grootfav.png" alt="Icon" width="80px" /></legend>
+          <label for="name"
+            >Full Name &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label
+          >
+          <input type="text" name="name" id="name" autofocus/><br /><br />
+          <label for="dob">Date of Birth &nbsp;&nbsp;&nbsp;:</label>
+          <input type="date" name="dob" id="dob"><br><br>
+          <label for="email"
+            >Email ID &nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label
+          >
+          <input type="email" name="email" id="email" /><br /><br />
+          <label for="Num">Mobile No &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; :</label>
+          <input type="tel" name="Number" id="Num" /><br /><br />
+          <!-- <input type="image" src="./superfav.png" alt="student img" height="150" width="90"> -->
+          <label for="father">Father Name &nbsp;&nbsp;:</label>
+          <input type="text" name="father" id="father" /><br /><br />
+          <label for="mother">Mother Name &nbsp;:</label>
+          <input type="text" name="Mother" id="mother" /><br /><br />
+          Gender : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <input type="radio" name="gender" id="other" />
+          <label for="other">Other</label><br /><br />
+          <label for="Address"
+            >Address
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;:</label
+          >
+          <textarea name="Address" id="Address">Type your address here...</textarea
+          ><br /><br />
+        </fieldset>
+        <br />
+        <b><a href="./index.html">Back</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="./Academic.html">Proceed to Academic details</a></b>
+      </div>
+    </form>
+  </body>
+</html>
