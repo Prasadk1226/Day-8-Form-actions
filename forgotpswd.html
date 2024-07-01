@@ -1,72 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>forgot password</title>
-    <link rel="shortcut icon" href="./lamp.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./lamp.png" type="image/x-icon" />
     <style>
-        .text{
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-            font-weight: bold;
-            width: 1420px;
-            height: 710px;
-            /* margin-left: 7%; */
-            background-image: linear-gradient(to top left, black,rgba(255, 0, 0, 0.579) );
-            /* background-image: angular-gradient(black,red); */
-        }
-        #email{
-            width: 400px;
-            height: 20px;
-            border: 2px solid grey;
-            border-radius: 5px;
-            background-color: blanchedalmond;
-        }
-        #email1{
-            width: 100px;
-            height: 27px;
-            border: 2px solid  gray;
-            border-radius: 5px;
-            background-color: blanchedalmond;
-        }
-        #lgpg{
-            width: 150px;
-            height: 27px;
-            border: 2px solid  gray;
-            border-radius: 5px;
-            background-image: linear-gradient(to bottom right,cyan,magenta, orange);
-        }
-        fieldset{
-            border: 4px solid white;
-            border-radius: 15px;
-            /* background-image: radial-gradient(circle at bottom left, blue,black,red,orange,green); */
-            background-image: linear-gradient(to top left, black,rgba(255, 0, 0, 0.486) );
-            color: aliceblue ;
-            width: 600px;
-            margin-left: 10%;
-            margin-top: 50px;
-
-        }
-        
+      .text {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+        font-weight: bold;
+        width: 1420px;
+        height: 710px;
+        /* margin-left: 7%; */
+        background-image: linear-gradient(
+          to top left,
+          black,
+          rgba(255, 0, 0, 0.579)
+        );
+        /* background-image: angular-gradient(black,red); */
+      }
+      #email {
+        width: 400px;
+        height: 20px;
+        border: 2px solid grey;
+        border-radius: 5px;
+        background-color: blanchedalmond;
+      }
+      #email1 {
+        width: 100px;
+        height: 27px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        background-color: blanchedalmond;
+      }
+      #lgpg {
+        width: 150px;
+        height: 27px;
+        border: 2px solid gray;
+        border-radius: 5px;
+        background-image: linear-gradient(
+          to bottom right,
+          cyan,
+          magenta,
+          orange
+        );
+      }
+      fieldset {
+        border: 4px solid white;
+        border-radius: 15px;
+        /* background-image: radial-gradient(circle at bottom left, blue,black,red,orange,green); */
+        background-image: linear-gradient(
+          to top left,
+          black,
+          rgba(255, 0, 0, 0.486)
+        );
+        color: aliceblue;
+        width: 600px;
+        margin-left: 10%;
+        margin-top: 50px;
+      }
     </style>
-</head>
-<body>
-    <div class="text"><br>
-        
-        <fieldset>
-       
-        <legend><h2><i> Forgot Password </i></h2></legend>
-        <form action="">
-            <img src="./forgot.png" alt="forgotpwdimg" width="250px" ><br>  
-            Enter your Email address and we'll send you a link to reset your password. <br><br>
-            <label for="email">Email ID  </label><br><br>
-            <input type="email" name="email" id="email" placeholder="john@email.com">
-           <button type="submit" id="email1" formaction="./index.html">Get Link</button><br><br>
-           <button type="submit" id="lgpg" formaction="./index.html">Back to Login Page</button>
+  </head>
+  <body>
+    <div class="text">
+      <br />
 
+      <fieldset>
+        <legend>
+          <h2><i> Forgot Password </i></h2>
+        </legend>
+        <form action="">
+          <img src="./forgot.png" alt="forgotpwdimg" width="250px" /><br />
+          Enter your Email address and we'll send you a link to reset your
+          password. <br /><br />
+          <label for="email">Email ID </label><br /><br />
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="john@email.com"
+          />
+          <button type="submit" id="email1" formaction="./index.html">
+            Get Link</button
+          ><br /><br />
+          <button type="submit" id="lgpg" formaction="./index.html">
+            Back to Login Page
+          </button>
         </form>
-        </fieldset><br>
-</div>
-    
-</body>
+      </fieldset>
+      <br />
+    </div>
+  </body>
 </html>
